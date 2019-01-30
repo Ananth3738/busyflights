@@ -10,6 +10,15 @@ public class ToughJetResponse {
     private String arrivalAirportName;
     private String outboundDateTime;
     private String inboundDateTime;
+    private String airLine;
+
+    public String getAirLine() {
+        return airLine;
+    }
+
+    public void setAirLine(String airLine) {
+        this.airLine = airLine;
+    }
 
     public String getCarrier() {
         return carrier;
